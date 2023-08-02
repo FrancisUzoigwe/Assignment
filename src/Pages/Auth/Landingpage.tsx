@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 const Landingpage = () => {
   return (
-    <div>
+    <div style={{display: "flex", justifyContent: "center"}}>
         <Register to="/signup">Register</Register>
     </div>
   )
@@ -12,4 +12,7 @@ const Landingpage = () => {
 
 export default Landingpage
 
-const Register = styled(Link)``;
+const Register = styled(Link)`
+margin-top: 100px;
+text-decoration: none;
+`;
